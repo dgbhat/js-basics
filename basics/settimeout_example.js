@@ -6,6 +6,11 @@ function first() {
         }, 1000);
     }
 }
+/*
+0
+1
+2
+*/
 
 function second() {
     for (var i = 10; i < 13; i++) {
@@ -14,6 +19,11 @@ function second() {
         }, 1000);
     }
 }
+/*
+13
+13
+13
+*/
 
 function third() {
     let i;
@@ -23,6 +33,11 @@ function third() {
         }, 1000);
     }
 }
+/*
+103
+103
+103
+*/
 
 //solution using var
 function fourth() {
@@ -37,8 +52,31 @@ function fourth() {
     }
     console.log('...')
 }
+/*
+1
+2
+3
+*/
+
+function fifth() {
+    function ex(n) {
+        setTimeout(() => {
+            if (n != undefined) console.log(n)
+        }, 1000)
+    }
+
+    for (var i = 0; i < 3; i++) {
+        ex(i);
+    }
+}
+/*
+0
+1
+2
+*/
 
 first();
 second();
 third();
 fourth();
+fifth();

@@ -11,3 +11,18 @@ function getName() {
 }
 var age = 25;
 let yob = 1996
+
+
+//-------------------var vs let
+function f1() {
+    console.log(b) //undefined
+    console.log(a) //ReferenceError: Cannot access 'a' before initialization
+    let a;
+    var b;
+    /*
+    Scope: Local =>
+    a: undefined
+    b: undefined
+    * */
+}
+f1()

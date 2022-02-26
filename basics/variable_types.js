@@ -54,3 +54,15 @@ console.log(a); //ReferenceError: a is not defined
 
 
 ///////////////////////////////
+function f1() {
+    console.log(b) //undefined
+    console.log(a) //ReferenceError: Cannot access 'a' before initialization
+    let a;
+    var b;
+/*
+Scope: Local =>
+a: undefined
+b: undefined
+* */
+}
+f1()
