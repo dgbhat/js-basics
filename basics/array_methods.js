@@ -34,4 +34,4 @@ Array.prototype.nextBit = function (arr) {
     return newArr;
 };
 
-console.log(a.nextBit(a));
+console.log(a.nextBit(a)); // [ 'b', 'c', 'd', 'e', '6' ]
