@@ -38,5 +38,4 @@ let x = 'outer scope';
 // since let x inside the fn is hoisted, it will visible to the console.log statement and hence that will only be taken here, not the global x
 // ******* let/const declarations do hoist, but they throw errors when accessed before being initialized ********
 
-
 // Temporal Dead Zone: https://jsrocks.org/2015/01/temporal-dead-zone-tdz-demystified
