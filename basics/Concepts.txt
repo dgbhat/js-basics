@@ -1,0 +1,14 @@
+1. Array
+2. Array methods
+3. Arrow functions
+4. Closure TODO
+5. Call,apply,bind TODO
+6. Destructuring
+7. Functions basics
+8. Hoisting
+9. Identifiers -const,let,var
+10. JS Engine -event loop, cb queue, execution context
+11. Spread op
+12. Strings
+13. this keyword TODO
+14. Promises TODO
