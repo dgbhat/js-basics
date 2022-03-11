@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/async concepts/async concepts.iml" filepath="$PROJECT_DIR$/async concepts/async concepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Async stuff/Async stuff.iml" filepath="$PROJECT_DIR$/Async stuff/Async stuff.iml" />
       <module fileurl="file://$PROJECT_DIR$/basics/basics.iml" filepath="$PROJECT_DIR$/basics/basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/frontend/frontend.iml" filepath="$PROJECT_DIR$/frontend/frontend.iml" />
     </modules>
